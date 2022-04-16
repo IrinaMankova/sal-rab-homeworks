@@ -14,6 +14,20 @@ function addInCartMessage(title, price) {
     // добавьте в конец переменной message текст 'теперь в корзине!'
     // выведите переменную message в консоль
 
+    // Реешение:
+
+    let massage;
+    massage = productName;
+    massage = massage + " ";
+    massage = massage + "за";
+    massage = massage + " ";
+    massage = massage + productPrice;
+    massage = massage + " ";
+    massage = massage + "теперь в корзине!";
+
+    console.log(massage);
+    
+
     // Конец решения задания №1.1.
 
     return message;
