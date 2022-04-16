@@ -26,7 +26,6 @@ function addInCartMessage(title, price) {
     massage = massage + "теперь в корзине!";
 
     console.log(massage);
-    
 
     // Конец решения задания №1.1.
 
